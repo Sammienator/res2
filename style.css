@@ -86,19 +86,42 @@ ul li{
 .box2{
     /* background-color: pink; */
 }
+
+.textz{
+    text-align: center;
+}
+
+#imagewithcaption {
+float:center;
+align-items: center;
+text-align: center;
+
+
+}
+
+
+ 
  
 .box3{
     /* background-color: purple; */
+    
 }
+
+
  
 .box4{
     /* background-color: black;*/
+    width: 100%;
 
 } 
 .box5{
     /* background-color: aqua; */
+    height: 50%;
+
     
 }
+
+  
 
 
 /* tablet */
