@@ -4,6 +4,9 @@ $tablet:768px;
 $phone:480px; */
 
 
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Satisfy&display=swap');
+
 
 .container{
     width: 100%;
@@ -14,31 +17,61 @@ $phone:480px; */
 }
 header{
    
-    display: flex;
+
    
-height: 50px;
-background-color: blue;
-}
-#pic{
-    height: 50px;
-    width: 30px;
+height: 100%;
+/* background-color: blue; */
 }
 
 nav ul{
  list-style: none;
- margin: 0;
- padding: 5px;
- float: right;
+ 
 
 
 }
 ul li{
-    
-    display: inline-block;
+    display: inline-flex;
     text-decoration: none;
     list-style-type: none;
+    
+
+   
   
 }
+ nav p{
+    background-color: white;
+    font-size: 30px;
+    box-shadow:0 10px 20px rgba(0,0,0,0.19),0 6px 6px rgba(0,0,0,0.23);
+    font-family: 'Lobster', cursive;
+    
+
+}
+
+
+.sign li{
+   
+    float: right;
+    margin-top: 0;
+    font-family: 'Lobster', cursive;
+    
+
+    
+   
+}
+.sign button{
+    background-color: white;
+    font-size: 12px;
+    border: 1px solid black;
+    margin:0 2px;
+    box-shadow:0 10px 20px rgba(0,0,0,0.19),0 6px 6px rgba(0,0,0,0.23);
+
+}
+.sign button:hover {
+    background-color: aqua;
+    color: white;
+  }
+
+
 .box{
  width: 50%;
  height: 100vh;
@@ -65,6 +98,15 @@ ul li{
         left: 50%;
         transform: translate(-50%, -50%);
         color: white;
+        
+      }
+      .hero-text h1{
+        font-family: 'Lobster', cursive;
+        letter-spacing: 5px;
+
+      }
+      .hero-text p{
+        font-family: 'Satisfy', cursive;
       }
       
       .hero-text button {
@@ -92,6 +134,10 @@ ul li{
 
 .textz{
     text-align: center;
+}
+.textz h1{
+    text-transform: uppercase;
+    text-decoration: underline;
 }
 
 #imagewithcaption {
@@ -129,9 +175,10 @@ h1 {
     form {
      margin-left: 30px;
      margin-top: 10px;
-     float: right;
+     
     box-shadow: 0 2px 5px #f5f5f5; 
     background: #f5f5f5; 
+   
     }
    
     input, textarea {
@@ -162,14 +209,79 @@ h1 {
 .box4{
     /* background-color: black;*/
     width: 100%;
+    height: 100%;
+
 
 } 
+.box4 h1{
+    text-align: center;
+    text-transform: uppercase;
+    text-decoration: underline;
+}
+.box4 h2{
+    text-transform: capitalize;
+    text-align: center;
+    font-size: 15px;
+}
+.box4 p{
+    text-align: center;
+
+
+}
 .box5{
     /* background-color: aqua; */
-    height: 50%;
+    width: 100%;
+    height: 100%;
+    align-items: center;
 
     
 }
+.box5 footer{
+    text-align: center;
+}
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+  }
+  
+  .fa:hover {
+      opacity: 0.7;
+  }
+  
+  .fa-facebook {
+    background: #3B5998;
+    color: white;
+  }
+  
+  .fa-twitter {
+    background: #55ACEE;
+    color: white;
+  }
+  
+  .fa-google {
+    background: #dd4b39;
+    color: white;
+  }
+  
+  .fa-linkedin {
+    background: #007bb5;
+    color: white;
+  }
+  
+  .fa-youtube {
+    background: #bb0000;
+    color: white;
+  }
+  
+  .fa-instagram {
+    background: #125688;
+    color: white;
+  }
+  
 
   
 
@@ -186,6 +298,10 @@ h1 {
     } 
     .box5{
         width:100%;
+    }
+    form{
+        width: 100vw;
+        margin-left: 0px;
     }
 
 
