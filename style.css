@@ -17,6 +17,9 @@ $phone:480px; */
     background-color: #ccc;
     
 }
+a{
+    color: white;
+}
 header{
    
 
@@ -59,6 +62,9 @@ ul li{
 
     
    
+}
+.sign a{
+    color: black;
 }
 .sign button{
     background-color: white;
@@ -142,13 +148,14 @@ ul li{
       .hero-text p{
         font-family: 'Abril Fatface', cursive;
         letter-spacing: 2px;
+        color: aqua;
       }
       
       .hero-text button {
         border: none;
         outline: 0;
         display: inline-block;
-        padding: 10px 25px;
+        padding: 10px 15px;
         color: black;
         background-color: aqua;
         text-align: center;
