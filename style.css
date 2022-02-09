@@ -150,14 +150,14 @@ ul li{
         display: inline-block;
         padding: 10px 25px;
         color: black;
-        background-color: #ddd;
+        background-color: aqua;
         text-align: center;
         cursor: pointer;
         font-family: 'Abril Fatface', cursive;
       }
       
       .hero-text button:hover {
-        background-color: #555;
+        background-color: #1c87c9;
         color: white;
       }
 
